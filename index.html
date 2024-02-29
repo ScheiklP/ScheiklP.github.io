@@ -111,6 +111,45 @@
           </td>
         </tr>
 
+        <tr onmouseout="ggns_stop()" onmouseover="ggns_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <div class="one">
+                    <div class="two" id='ggns_image'>
+                        <img src='images/ggns.gif' width=100%>
+                    </div>
+                    <img src='images/ggns.png' width=100%>
+                </div>
+                <script type="text/javascript">
+                    function ggns_start() {
+                        document.getElementById('ggns_image').style.opacity = "1";
+                    }
+
+                    function ggns_stop() {
+                        document.getElementById('ggns_image').style.opacity = "0";
+                    }
+                    ggns_stop()
+                </script>
+            </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="https://openreview.net/forum?id=jsZsEd8VEY">
+              <span class="papertitle">Grounding Graph Network Simulators using Physical Sensor Observations</span>
+            </a>
+            <br>
+            <a href="https://dmi.unibas.ch/de/personen/jonas-linkerhaegner/">Jonas Linkerhägner</a>,
+            <a href="https://alr.iar.kit.edu/21_221.php">Niklas Freymuth</a>,
+            <strong>Paul Maria Scheikl</strong>,
+            <a href="https://www.sparc.tf.fau.de/person/prof-dr-franziska-mathis-ullrich/">Franziska Mathis-Ullrich</a>,
+            <a href="https://alr.iar.kit.edu/21_65.php">Gerhard Neumann</a>.
+            <br>
+            <em>International Conference on Learning Representations (ICLR)</em>, 2023
+            <br>
+            <p>
+            Integrate sensory information to ground Graph Network Simulators on real world observations.
+            Predict the mesh state of deformable objects by utilizing point cloud data.
+            </p>
+          </td>
+        </tr>
+
         <tr>
           <td style="padding:20px;width:25%;vertical-align:middle">
             <div class="one">
